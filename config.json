@@ -1,0 +1,359 @@
+[
+  {
+    "id": 1,
+    "tcashName": "SCPSC1",
+    "code": "SCPSC1",
+    "flow": 2,
+    "instituteId": 100,
+    "feeTypeId": 1,
+    "feeTypeName": "Tuition Fee",
+    "fieldList": [
+      {
+        "sequence": 1,
+        "name": "billNumber",
+        "label": "Student ID",
+        "type": "text",
+        "required": true,
+        "dataType": "text",
+        "regex": "^\\w{1,30}[a-zA-Z_0-9]$"
+      },
+      {
+        "sequence": 2,
+        "name": "dateRange",
+        "label": "Bill Month",
+        "type": "select",
+        "required": false,
+        "dataType": "text",
+        "regex": "^((0[1-9])|(1[0-2]))(\\d{4})$",
+        "options": [
+          {
+            "name": "July 2021",
+            "value": "072021"
+          },
+          {
+            "name": "August 2021",
+            "value": "082021"
+          },
+          {
+            "name": "September 2021",
+            "value": "092021"
+          },
+          {
+            "name": "October 2021",
+            "value": "102021"
+          },
+          {
+            "name": "November 2021",
+            "value": "112021"
+          },
+          {
+            "name": "December 2021",
+            "value": "122021"
+          },
+          {
+            "name": "January 2022",
+            "value": "012022"
+          },
+          {
+            "name": "February 2022",
+            "value": "022022"
+          },
+          {
+            "name": "March 2022",
+            "value": "032022"
+          },
+          {
+            "name": "April 2022",
+            "value": "042022"
+          },
+          {
+            "name": "May 2022",
+            "value": "052022"
+          },
+          {
+            "name": "June 2022",
+            "value": "062022"
+          },
+          {
+            "name": "July 2022",
+            "value": "072022"
+          },
+          {
+            "name": "August 2022",
+            "value": "082022"
+          },
+          {
+            "name": "September 2022",
+            "value": "092022"
+          }
+        ]
+      },
+      {
+        "sequence": 3,
+        "name": "isSelf",
+        "label": "",
+        "type": "radio",
+        "required": false,
+        "dataType": "number",
+        "regex": "^\\w{4,5}$",
+        "options": [
+          {
+            "name": "Self",
+            "value": "true"
+          },
+          {
+            "name": "Other",
+            "value": "false"
+          }
+        ]
+      },
+      {
+        "sequence": 4,
+        "name": "notificationNumber",
+        "label": "Notification Number",
+        "type": "text",
+        "required": false,
+        "dataType": "text",
+        "regex": "^\\d{11,13}[0-9]$"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "tcashName": "SCPSC1",
+    "code": "SCPSC1",
+    "flow": 2,
+    "instituteId": 100,
+    "feeTypeId": 1,
+    "feeTypeName": "Bills",
+    "fieldList": [
+      {
+        "sequence": 1,
+        "name": "billNumber",
+        "label": "Student ID",
+        "type": "text",
+        "required": true,
+        "dataType": "text",
+        "regex": "^\\w{1,30}[a-zA-Z_0-9]$"
+      },
+      {
+        "sequence": 2,
+        "name": "dateRange",
+        "label": "Bill Month",
+        "type": "select",
+        "required": false,
+        "dataType": "text",
+        "regex": "^((0[1-9])|(1[0-2]))(\\d{4})$",
+        "options": [
+          {
+            "name": "July 2021",
+            "value": "072021"
+          },
+          {
+            "name": "August 2021",
+            "value": "082021"
+          },
+          {
+            "name": "September 2021",
+            "value": "092021"
+          },
+          {
+            "name": "October 2021",
+            "value": "102021"
+          },
+          {
+            "name": "November 2021",
+            "value": "112021"
+          },
+          {
+            "name": "December 2021",
+            "value": "122021"
+          },
+          {
+            "name": "January 2022",
+            "value": "012022"
+          },
+          {
+            "name": "February 2022",
+            "value": "022022"
+          },
+          {
+            "name": "March 2022",
+            "value": "032022"
+          },
+          {
+            "name": "April 2022",
+            "value": "042022"
+          },
+          {
+            "name": "May 2022",
+            "value": "052022"
+          },
+          {
+            "name": "June 2022",
+            "value": "062022"
+          },
+          {
+            "name": "July 2022",
+            "value": "072022"
+          },
+          {
+            "name": "August 2022",
+            "value": "082022"
+          },
+          {
+            "name": "September 2022",
+            "value": "092022"
+          }
+        ]
+      },
+      {
+        "sequence": 3,
+        "name": "isSelf",
+        "label": "",
+        "type": "radio",
+        "required": false,
+        "dataType": "number",
+        "regex": "^\\w{4,5}$",
+        "options": [
+          {
+            "name": "Self",
+            "value": "true"
+          },
+          {
+            "name": "Other",
+            "value": "false"
+          }
+        ]
+      },
+      {
+        "sequence": 4,
+        "name": "notificationNumber",
+        "label": "Notification Number",
+        "type": "text",
+        "required": false,
+        "dataType": "text",
+        "regex": "^\\d{11,13}[0-9]$"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "tcashName": "SCPSC1",
+    "code": "SCPSC1",
+    "flow": 2,
+    "instituteId": 100,
+    "feeTypeId": 1,
+    "feeTypeName": "Food",
+    "fieldList": [
+      {
+        "sequence": 1,
+        "name": "billNumber",
+        "label": "Student ID",
+        "type": "text",
+        "required": true,
+        "dataType": "text",
+        "regex": "^\\w{1,30}[a-zA-Z_0-9]$"
+      },
+      {
+        "sequence": 2,
+        "name": "dateRange",
+        "label": "Bill Month",
+        "type": "select",
+        "required": false,
+        "dataType": "text",
+        "regex": "^((0[1-9])|(1[0-2]))(\\d{4})$",
+        "options": [
+          {
+            "name": "July 2021",
+            "value": "072021"
+          },
+          {
+            "name": "August 2021",
+            "value": "082021"
+          },
+          {
+            "name": "September 2021",
+            "value": "092021"
+          },
+          {
+            "name": "October 2021",
+            "value": "102021"
+          },
+          {
+            "name": "November 2021",
+            "value": "112021"
+          },
+          {
+            "name": "December 2021",
+            "value": "122021"
+          },
+          {
+            "name": "January 2022",
+            "value": "012022"
+          },
+          {
+            "name": "February 2022",
+            "value": "022022"
+          },
+          {
+            "name": "March 2022",
+            "value": "032022"
+          },
+          {
+            "name": "April 2022",
+            "value": "042022"
+          },
+          {
+            "name": "May 2022",
+            "value": "052022"
+          },
+          {
+            "name": "June 2022",
+            "value": "062022"
+          },
+          {
+            "name": "July 2022",
+            "value": "072022"
+          },
+          {
+            "name": "August 2022",
+            "value": "082022"
+          },
+          {
+            "name": "September 2022",
+            "value": "092022"
+          }
+        ]
+      },
+      {
+        "sequence": 3,
+        "name": "isSelf",
+        "label": "",
+        "type": "radio",
+        "required": false,
+        "dataType": "number",
+        "regex": "^\\w{4,5}$",
+        "options": [
+          {
+            "name": "Self",
+            "value": "true"
+          },
+          {
+            "name": "Other",
+            "value": "false"
+          }
+        ]
+      },
+      {
+        "sequence": 4,
+        "name": "notificationNumber",
+        "label": "Notification Number",
+        "type": "text",
+        "required": false,
+        "dataType": "text",
+        "regex": "^\\d{11,13}[0-9]$"
+      }
+    ]
+  }
+]
